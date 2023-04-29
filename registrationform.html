@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Workshop Registration</h1>
+        <div class="marg">
+        <p><u>Register now while seats are available!</u></p>
+        <form>
+            <div class="first">
+            <label for="fname">First Name : </label>
+            <input type="text" name="fname" id="fname" placeholder="Enter first name" required><br><br>
+            <label for="lname">Last Name : </label>
+            <input type="text" name="lname" id="lname" placeholder="Enter last name" required><br><br>
+            <label for="cmpny">Company/Institution : </label>
+            <input type="text" name="cmpny" id="cmpny" placeholder="Company/Institution name" required><br><br>
+            
+            <label for="add">Address : </label>
+            <textarea name="add" id="add" cols="30" rows="10" placeholder="Enter address" required></textarea><br><br>
+
+            <label for="place">City : </label>
+            <input type="text" name="place" id="place" placeholder="Enter your city" required><br><br>
+
+            <label for="choice">State/Province/Region : </label>
+            <select name="choice" id="choice" required>
+                <option value="1">Maharashtra</option>
+                <option value="2">Gujrat</option>
+                <option value="3">Rajasthan</option>
+                <option value="4">Punjab</option>
+            </select><br><br>
+
+            <label for="choose">Country : </label>            
+            <select name="choose" id="choose" required>
+                <option value="1">India</option>
+                <option value="2">America</option>
+                <option value="3">Germany</option>
+                <option value="4">Thailand</option>
+            </select><br><br>
+            
+            <label for="mail">E-mail : </label>
+            <input type="email" name="mail" id="email" placeholder="Enter e-mail" required><br><br>
+            <label for="phno">Phone Number : </label>
+            <input type="text" name="phno" id="phno" placeholder="Enter phone no." required><br><br>
+            
+        </div>
+
+            <div class="second">
+            <p><u>Lunch</u></p>
+            <label for="ch">Meal Preference : </label>
+            <select name="ch" id="ch" required>
+                <option value="1">Vegetarian</option>
+                <option value="2">Non-Vegetarian</option>
+            </select><br><br>
+            
+        </div>
+
+            <div class="third">
+            <p><u>Payment Details</u></p>
+            <p>Payment Mode :</p>
+            <input type="checkbox" name="opt1" id="opt1">
+            <label for="opt1">Cash</label><br>
+            <input type="checkbox" name="opt2" id="opt2">
+            <label for="opt2">Cheque</label><br>
+            <input type="checkbox" name="opt3" id="opt3">
+            <label for="opt3">Demand Draft</label><br><br>
+            
+            <label for="check">Cheque Number : </label>
+            <input type="text" name="check" id="check" placeholder="Enter cheque no." required><br><br>
+            <label for="bank">Bank Name : </label>
+            <input type="text" name="bank" id="bank" placeholder="Enter bank name" required><br><br>
+
+            <input type="submit" value="Submit">
+            </div>
+            </div>
+        </form>
+    </body>
+</html>

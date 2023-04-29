@@ -1,0 +1,32 @@
+h1{
+    background-color: #d17969;
+    border: 4px solid brown;
+}
+div.first{
+    color: #710909;
+    background-color: #d59797;
+    text-decoration: underline;
+}
+div.second{
+    color: #710909;
+    background-color: #b08b8b;
+    text-decoration: underline;
+}
+div.third{
+    color: #710909;
+    background-color: #caabab;
+    text-decoration: underline;
+
+}
+div.marg{
+    font-size: large;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+div title{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
