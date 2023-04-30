@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)
+}
+.container{
+    background-color: white;
+    width: 70%;
+    max-width: 700px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container .title{
+font-size: 25px;
+font-weight: 500;
+}
+.container .user-details{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.user-details .input-box{
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box input{
+    height: 25px;
+    width: 300px;
+}
+.user-details .input-box .details{
+}
+.container .user-details2{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12em;
+}
+.hobby-title .hobby{
+    justify-content: space-around;
+}
